@@ -1,6 +1,7 @@
 // brute force approach (o((m*n)*(m+n)))
 //idea : when you find aa zero mark its enntire row and column to 0 but to avoid making multiple times, use a teemp variable -1 .
-
+/////////////////////////////////////////////////
+/// driver code 
 public class setMatrixZero {
     public static void main(String[] args) {
         int[][] matrix = {
