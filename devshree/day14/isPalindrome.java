@@ -7,7 +7,7 @@ public class isPalindrome {
         int right = ch.length-1;
         while(left<right){
             if(!Character.isLetterOrDigit(ch[left])){
-                left++;
+                left++; 
             }
            if (!Character.isLetterOrDigit(ch[left])) {
                 left++;
