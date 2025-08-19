@@ -32,6 +32,7 @@ public static int brute(int[] nums) {
         }
         return -1;
     }
+
     public static int optimal(int[] nums) {
     int totalSum = 0;
     for (int num : nums) totalSum += num;
@@ -52,3 +53,7 @@ public static int brute(int[] nums) {
    System.out.println(optimal(nums));
     }
 }
+
+// brute : two loops , left sum , right sum check at last 
+// better :  use prefix sum array 
+//optimal : total sum krdo poori array ka , right sum = totalsum - leftsum - nums[i]; if left sum = rightsum return i leftsum+=nums[i];

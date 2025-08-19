@@ -44,3 +44,5 @@ public class majority {
         System.out.println("Majority element (brute): " + brute(arr));
     }
 }
+// brute : use two loops 
+// optimal : boyre moore voting algo 
