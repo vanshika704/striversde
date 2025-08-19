@@ -51,3 +51,6 @@ public static int findDuplicate(int[] arr) {
         brute(arr);
     }
 }
+// brute : two loops lgao if arr[i]= arr[j] return arr[i]
+// better : hashset use kro , contains pr return krdo   else map.put krdo 
+// optimal : cycle algo of linked lists fast and slow pointers 

@@ -55,3 +55,5 @@ public class removeduplicates {
         System.out.println("\nLength = " + n);
     }
 }
+// brute : use extra space and attempt .
+// optimal : use  two pointers 

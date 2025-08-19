@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 class containsDuplicate {
-
     public static boolean Brute(int[]arr){
         int n = arr.length ;
         for(int i = 0 ; i < n ; i++){
@@ -46,3 +45,6 @@ class containsDuplicate {
 
     }
 }
+// brute : do loop lo , arr[i]==arr[j] check kro 
+// better : sort kro , prev element check kro 
+// optimal : hashmap use kro , if map. contains key , return true ,else return map.put num 

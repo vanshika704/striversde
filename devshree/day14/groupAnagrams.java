@@ -47,7 +47,6 @@ public class groupAnagrams {
 
         return new ArrayList<>(map.values());
     
-
      }
       public static void main(String[] args) {
         String[] words = {"eat","tea","tan","ate","nat","bat"};
